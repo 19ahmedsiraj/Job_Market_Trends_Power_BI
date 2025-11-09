@@ -1,4 +1,4 @@
-# 📊 Job Market Trends — Power BI Dashboard
+# 📊 Job Market Trends - Power BI Dashboard
 
 ## 🧩 Project Overview
 
