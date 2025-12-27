@@ -1,61 +1,45 @@
-# 📊 Job Market Trends - Power BI Dashboard
+# 📊 Jobs Market Analysis Dashboard - Power BI
 
 ## 🧩 Project Overview
 
-This project explores **Job Market Trends for 2024** using live job data to analyze the demand, salary patterns, and global distribution across popular technical roles.
+This project features an interactive Jobs Market Analysis Dashboard built using Power BI to analyze job demand, skills, and salary trends across roles and locations. The dashboard highlights key KPIs such as total job postings, median salary, and skills per job, and enables users to explore in-demand roles, compensation patterns, and seasonal hiring trends. Role-specific drill-through pages and interactive filters enhance deeper analysis, supporting data-driven decision-making for job seekers, recruiters, and workforce planners.
 
-**The interactive Power BI dashboard**  offers insights into job counts, salary comparisons, and hiring trends over time. Users can drill through specific job titles to view detailed analytics for each role, such as **Data Scientist or Data Engineer.**
+## Key Power BI Skills Utilized:
 
-## 🛠️ Tools & Technologies
+- Dashboard Layout & Design
 
-- Power BI Desktop
+- Power Query (ETL & Data Shaping)
 
-- Power Query for data cleaning and transformation
+- Basic Data Modeling (Table Relationships)
 
-- DAX (Data Analysis Expressions) for calculated measures
+- Implicit Measures & Standard Aggregations
 
-- Excel / CSV as data source
+- Core Charts (Bar, Line, Area, Column)
 
-## 🚀 Key Insights
+- Map Visualizations for Geospatial Data
 
-- Data Engineer, Data Analyst, and Data Scientist are among the most in-demand roles in 2024.
+- KPI Cards & Detailed Data Tables
 
-- Senior Data Scientist has the highest median yearly salary.
+- Interactive Slicers for Filtering
 
-- Hiring trends show fluctuations across months, indicating seasonal recruitment patterns.
+- Buttons & Bookmarks for Page Navigation
 
-- Clear visualization of hourly vs yearly compensation helps compare job values effectively.
-
-## 🧠 Skills Demonstrated
-
-- Data Visualization & Dashboard Design
-
-- Data Modeling and Relationship Management
-
-- DAX Calculations and KPI creation
-
-- Analytical Storytelling using interactive visuals
-
-- Trend Analysis & Insight Derivation
+- Drill-Through Functionality
 
 ## 📈 Dashboard Features
 
 ### Page 1: Overview Dashboard
-![Dashboard Overview](/Images/picture1.png)
 
-- KPIs for Job Count, Rating, Yearly & Hourly Salary
+![Overview](/Images/Jobs_dashboard_1.png)
 
-- Top Job Titles Visualization
+- Key metrics such as total job count, skills per job, median yearly salary, and median hourly salary are highlighted to give a quick market overview. 
+- The dashboard enables users to explore popular skills and in-demand job roles, with dynamic switching between job count and salary-based analysis. 
+- Interactive slicers allow filtering by job title, skills, location, and date range, enabling deep drill-down analysis.
 
-- Yearly vs Hourly Salary Scatter Chart
-
-- Job Trend Line Chart (by Month)
-
-- Role-based Salary Comparison Table
 
 ### Page 2: Job Title Drill-through View
 
-![Data Scientist Drillthrough](/Images/picture2.png)
+![Data Scientist Drillthrough](/Images/Jobs_dashboard_2.png)
 
 **Example: Data Scientist**
 
@@ -73,8 +57,31 @@ This project explores **Job Market Trends for 2024** using live job data to anal
 
 - Job Schedule Type: Predominantly full-time roles
 
-## 📋 Conclusion
+### Page 3: Comparison Dashboard
+![Dashboard Overview](/Images/Jobs_dashboard_3.png)
 
-The project highlights a **data-driven perspective of the 2024 job market,** emphasizing the rapid growth in data-related careers.
+- Top Job Titles Visualization
 
-It demonstrates how **Power BI can convert raw job data into interactive visual insights** — empowering professionals and organizations to make informed, evidence-based career or hiring decisions.
+- Yearly vs Hourly Salary Scatter Chart
+
+- Job Trend Line Chart (by Month)
+
+## 📋 Insights and Conclusion
+
+- Data Scientist roles offer competitive yearly and hourly compensation, making them one of the most attractive positions in the job market.
+
+- A growing number of job postings emphasize skills over formal degrees, indicating a shift toward capability-based hiring.
+
+- Remote and hybrid work opportunities are increasingly common, improving job flexibility and accessibility.
+
+- Job opportunities are globally distributed, with hiring driven largely through major job platforms.
+
+- Full-time positions dominate the job schedule types, reflecting stable long-term demand.
+
+- Comparative analysis shows Data Engineer and Data Analyst roles leading in job volume.
+
+- Salary comparisons highlight clear pay differentiation across roles, helping candidates evaluate career trade-offs.
+
+- Monthly trends reveal seasonal hiring patterns, with peak demand followed by year-end slowdowns.
+
+- Overall, these pages enable data-driven decision-making by identifying high-demand roles, salary benchmarks, and evolving workforce trends.
